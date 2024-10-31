@@ -5,7 +5,7 @@
   --base-color: rgb(0, 0, 0);
   --text-color: #796404;
   --input-color: #ffffff;
-  background: ;
+  background-color: bisque;
 }
 
 * {
@@ -22,7 +22,7 @@ html {
 
 body {
   min-height: 100vh;
-  background-image: url(/img/flor.jpg);
+  background-image: url(../img/flor.jpg);
   background-size: cover;
   background-position: right;
   overflow: hidden;
