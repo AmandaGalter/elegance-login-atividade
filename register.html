@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Sensation</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados */
+        .hero {
+            background-image: url('https://via.placeholder.com/1920x600'); /* Insira uma imagem de alta qualidade */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .product-card img {
+            transition: transform 0.3s;
+        }
+        .product-card img:hover {
+            transform: scale(1.1);
+        }
+        .cta-button {
+            background-color: #d8a15d;
+            border: none;
+            font-size: 1.2em;
+            padding: 10px 20px;
+        }
+        .cta-button:hover {
+            background-color: #b3824a;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Perfume Sensation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="display-4">Descubra o Aroma da Elegância</h1>
+            <p class="lead">Perfumes exclusivos para ocasiões especiais</p>
+            <button class="btn cta-button mt-4">Conheça nossos perfumes</button>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section id="products" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Destaques</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Perfume 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Perfume Floral</h5>
+                            <p class="card-text">Notas frescas e elegantes.</p>
+                            <button class="btn cta-button">Ver Mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Perfume 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Perfume Amadeirado</h5>
+                            <p class="card-text">Intensidade e personalidade.</p>
+                            <button class="btn cta-button">Ver Mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Perfume 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Perfume Cítrico</h5>
+                            <p class="card-text">Energia e frescor.</p>
+                            <button class="btn cta-button">Ver Mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Sobre Nós</h2>
+            <p class="text-center">A Perfume Sensation é uma marca dedicada a oferecer fragrâncias sofisticadas e de alta qualidade. Cada perfume é criado para proporcionar experiências olfativas únicas, transformando momentos em memórias inesquecíveis.</p>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contato</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="name" placeholder="Seu nome">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Sua mensagem"></textarea>
+                </div>
+                <button type="submit" class="btn cta-button">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Perfume Sensation - Todos os direitos reservados</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
