@@ -125,20 +125,6 @@ body {
     object-fit: cover; /* Ajusta a imagem dentro do espaço */
 }
 
-/*.card-title {
-  font-size: 1rem; /* Ajusta o tamanho da fonte
-  margin: 0.5rem 0;
-  white-space: nowrap; /* Impede que o texto quebre a linha
-  overflow: hidden; /* Esconde o texto excedente
-  text-overflow: ellipsis; /* Adiciona as reticências */
-
-/*.card-text {
-  font-size: 0.9rem; /* Ajusta o tamanho da fonte 
-  margin-bottom: 1rem;
-  white-space: nowrap; /* Impede quebra de linha 
-  overflow: hidden; /* Esconde o texto excedente 
-  text-overflow: ellipsis; /* Adiciona reticências */
-
 .cta-button {
   margin-top: auto; /* Empurra o botão para a parte inferior */
 }
