@@ -167,3 +167,18 @@ form[role="search"] {
 .navbar-brand {
 margin-right: 200px; /* Ajuste o valor conforme necessário */
 }
+
+    /* Define o tamanho fixo do carrossel */
+    #carouselExampleInterval {
+      max-width: 850px; /* Largura fixa */
+      max-height: 3000px; /* Altura fixa */
+      margin: 0 auto; /* Centraliza o carrossel */
+      overflow: hidden; /* Esconde partes que ultrapassarem */
+  }
+
+  /* Ajusta as imagens para caber no tamanho do carrossel */
+  #carouselExampleInterval .carousel-item img {
+      width: 100%; /* Garante que a largura da imagem ocupa todo o carrossel */
+      height: 100%; /* Garante que a altura da imagem ocupa todo o carrossel */
+      /*object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorcer */
+  }
