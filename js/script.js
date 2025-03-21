@@ -3,3 +3,4 @@ document.addEventListener("scroll", function () {
   const scrollPosition = window.scrollY + window.innerHeight - 80;
   icon.style.top = `${scrollPosition}px`;
 });
+
